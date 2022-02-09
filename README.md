@@ -181,6 +181,6 @@ vnet <- rg$get_resource(type="Microsoft.Network/virtualNetworks", name="mastervm
 rg$create_vm_scaleset("slavess", user_config("myname", "~/.ssh/id_rsa.pub"),
                       instances=5, vnet=vnet, nsg=NULL)
 ```
-
+Subbu
 ---
 <p align="center"><a href="https://github.com/Azure/AzureR"><img src="https://github.com/Azure/AzureR/raw/master/images/logo2.png" width=800 /></a></p>
